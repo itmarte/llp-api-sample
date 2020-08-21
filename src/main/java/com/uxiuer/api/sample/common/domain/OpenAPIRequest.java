@@ -1,4 +1,4 @@
-package com.uxiuer.api.sample.domain;
+package com.uxiuer.api.sample.common.domain;
 
 import com.uxiuer.api.sample.common.enums.HttpMethod;
 import okhttp3.MediaType;

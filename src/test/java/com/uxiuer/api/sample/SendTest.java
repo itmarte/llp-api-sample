@@ -1,9 +1,9 @@
 package com.uxiuer.api.sample;
 
+import com.uxiuer.api.sample.common.domain.OpenAPIRequest;
 import com.uxiuer.api.sample.common.enums.HttpMethod;
 import com.uxiuer.api.sample.common.exceptions.CipherException;
 import com.uxiuer.api.sample.common.exceptions.RequestException;
-import com.uxiuer.api.sample.domain.OpenAPIRequest;
 import com.uxiuer.api.sample.sender.MyAPISender;
 
 import java.io.IOException;
