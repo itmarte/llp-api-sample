@@ -30,7 +30,9 @@ public class MyAPISender extends AbstractOpenApiSender {
 
     @Override
     public String getToken() {
+        // 基于auth2.0 的第三方应用模式
         return "Bearer <<access token>>";
+        // 合作商户直接对接模式
 //        return "Basic <<user token>>";
     }
 }
